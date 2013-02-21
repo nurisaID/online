@@ -1,9 +1,9 @@
 Online::Application.routes.draw do
   resources :advertises
 
-
   resources :posts
-
+  
+  resources :hellos
 
   get "home/index"
 
